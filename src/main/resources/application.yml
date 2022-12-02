@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://db-project-9gcdfz:5432/Covid
+    username: postgres-user
+    password: gZagqBAljfgXRRRvYI7HCMAPGBo8Eu
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  liquibase:
+    enabled: false
+
+
+
